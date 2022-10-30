@@ -5,6 +5,7 @@
 }
 
 header {
+  width :100% ;
   height: 50px;
   background-color: #ff9a4b;
 }
@@ -66,12 +67,22 @@ footer {
 }
 
 @media screen and (max-width :768px) {
+header {
+    width: 100%;
+  }
   
   
 main {
     display: flex;
     flex-direction: column;
-    
+    width:100%;
+    }
+
+    .step-box {
+      padding-bottom: 30px;
+    }
+    .step-box:last-child {
+      padding-bottom: 0;
     }
     
-}
+  }
