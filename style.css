@@ -79,10 +79,15 @@ main {
     }
 
     .step-box {
-      padding-bottom: 30px;
+      margin-right: 0;
+     margin:30px auto;
+      width: 90%;
+      
     }
     .step-box:last-child {
-      padding-bottom: 0;
+      margin: auto;
     }
+    
+    
     
   }
